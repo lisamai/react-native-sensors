@@ -1,8 +1,8 @@
 // Inspired by https://github.com/pwmckenna/react-native-motion-manager
 
-#import "Gyroscope.h"
 #import <React/RCTBridge.h>
 #import <React/RCTEventDispatcher.h>
+#import "Gyroscope.h"
 
 @implementation Gyroscope
 

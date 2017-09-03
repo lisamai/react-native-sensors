@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		1357392F1E5EA288004A1AE0 /* Gravity.m in Sources */ = {isa = PBXBuildFile; fileRef = 1357392E1E5EA288004A1AE0 /* Gravity.m */; };
+		135739321E5FB5E6004A1AE0 /* LinearAcceleration.m in Sources */ = {isa = PBXBuildFile; fileRef = 135739311E5FB5E6004A1AE0 /* LinearAcceleration.m */; };
 		E7FCE1881E14639E005C5155 /* Gyroscope.m in Sources */ = {isa = PBXBuildFile; fileRef = E7FCE1871E14639E005C5155 /* Gyroscope.m */; };
 		E7FCE18B1E150266005C5155 /* Accelerometer.m in Sources */ = {isa = PBXBuildFile; fileRef = E7FCE18A1E150266005C5155 /* Accelerometer.m */; };
 /* End PBXBuildFile section */
@@ -25,6 +27,10 @@
 
 /* Begin PBXFileReference section */
 		134814201AA4EA6300B7C361 /* libRNSensors.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libRNSensors.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		1357392D1E5EA27D004A1AE0 /* Gravity.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Gravity.h; sourceTree = "<group>"; };
+		1357392E1E5EA288004A1AE0 /* Gravity.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Gravity.m; sourceTree = "<group>"; };
+		135739301E5FB5E6004A1AE0 /* LinearAcceleration.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LinearAcceleration.h; sourceTree = "<group>"; };
+		135739311E5FB5E6004A1AE0 /* LinearAcceleration.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LinearAcceleration.m; sourceTree = "<group>"; };
 		E7FCE1861E14639E005C5155 /* Gyroscope.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Gyroscope.h; sourceTree = "<group>"; };
 		E7FCE1871E14639E005C5155 /* Gyroscope.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Gyroscope.m; sourceTree = "<group>"; };
 		E7FCE1891E150266005C5155 /* Accelerometer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Accelerometer.h; sourceTree = "<group>"; };
@@ -55,8 +61,12 @@
 			children = (
 				E7FCE1891E150266005C5155 /* Accelerometer.h */,
 				E7FCE18A1E150266005C5155 /* Accelerometer.m */,
+				1357392D1E5EA27D004A1AE0 /* Gravity.h */,
+				1357392E1E5EA288004A1AE0 /* Gravity.m */,
 				E7FCE1861E14639E005C5155 /* Gyroscope.h */,
 				E7FCE1871E14639E005C5155 /* Gyroscope.m */,
+				135739301E5FB5E6004A1AE0 /* LinearAcceleration.h */,
+				135739311E5FB5E6004A1AE0 /* LinearAcceleration.m */,
 				134814211AA4EA7D00B7C361 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -117,7 +127,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				135739321E5FB5E6004A1AE0 /* LinearAcceleration.m in Sources */,
 				E7FCE1881E14639E005C5155 /* Gyroscope.m in Sources */,
+				1357392F1E5EA288004A1AE0 /* Gravity.m in Sources */,
 				E7FCE18B1E150266005C5155 /* Accelerometer.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
